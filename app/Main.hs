@@ -1,9 +1,7 @@
 module Main where
 
-import qualified Data.List as L
 import qualified Control.Monad as M
 import qualified System.Environment as E
-import qualified System.FilePath as F
 import qualified System.Process as P
 
 import Debug.Trace
