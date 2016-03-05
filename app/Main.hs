@@ -4,8 +4,6 @@ import qualified Control.Monad as M
 import qualified System.Environment as E
 import qualified System.Process as P
 
-import Debug.Trace
-
 main :: IO ()
 main =
   getTargetDirectory >>= runMinttyAt
